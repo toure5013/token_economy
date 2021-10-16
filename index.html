@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=y">
+    <title>Crypto - Economy</title>
+    <!-- INCLURE WEB3-->
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-v5.css">
+
+    <!-- JQUERY  -->
+    <script src="./assets/js/jquery.js"></script>
+
+    <!-- LES DONNEES  DE MON SMART CONTRACT-->
+    <script src="./assets/contracts/token_v1.js"></script>
+
+    
+    <!-- mon code metier -->
+    <script src="./assets/js/main.js"></script>
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-primaryx">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <input name="btn_connect" id="btn_connect" class="btn btn-success" type="button" value="Connecter" >  
+                    </a>
+                  </li>
+                  <li>
+                    <span id="_adress"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+   
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>BONJOUR DEPUIS CRYPTO ECONOMY</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3">
+                  <label for="receiver" class="form-label">RECEIVER</label>
+                  <input type="text"
+                    class="form-control" name="receiver" id="receiver" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted">L'adresse du receiver</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3">
+                  <label for="tokens" class="form-label">TOKENS</label>
+                  <input type="text"
+                    class="form-control" name="tokens" id="tokens" aria-describedby="helpIdtokens" placeholder="">
+                  <small id="helpIdtokens" class="form-text text-muted">Le nombre de token à transmettre</small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3">
+                  <input type="button"
+                    class="btn btn-info" name="transfert" id="transfert" value="Transferer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- BOOTSTRAP -->
+    <script src="./assets/js//popper.js"></script>
+    <script src="./assets/js/bootstrap-v5.js"></script>
+</body>
+
+</html>
