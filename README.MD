@@ -1,3 +1,14 @@
+HOW TO USE : 
+
+ - git clone https://github.com/toure5013/token_economy.git
+ - npm i web3 (install web3)
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
 1 - INCLURE WEB 3 
 <!-- INCLURE WEB3 DANS TON CODE : PAR LE CDN METHONE 1-->
 <script src="./node_modules/web3/dist/web3.min.js"></script>
