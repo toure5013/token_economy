@@ -1,0 +1,17 @@
+{
+    "name": "contract_factory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "web3": "^1.5.2"
+    },
+    "devDependencies": {
+    }
+  }
+  
